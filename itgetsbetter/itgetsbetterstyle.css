@@ -1,0 +1,140 @@
+/* == backgrounds == */
+
+div{
+    padding:50pt;
+    width:800px;
+    margin:auto; 
+    text-align: center;  
+}
+
+.opening{
+    background-image:url(closet.jpg);
+}
+
+.background1{
+    background-image:url(laundry.jpeg);
+}
+
+.background2{
+    background-image:url(tryagain.jpg);
+}
+
+.background3{
+    background-image:url(breakfast.jpg);
+}
+
+.background4{
+    background-image:url(stairs.jpg);
+}
+
+.background5{
+    background-image:url(tangerine.jpg);
+    background-position: center;
+}
+
+.background6{
+    background-image:url(gotoschool.jpg);
+    background-position: center;
+}
+
+.background7{
+    background-image:url(feelthelove.jpg);
+    background-position: center;
+}
+
+.background8{
+    background-image:url(winner.jpg);
+    background-position:center;
+}
+
+.background9{
+    background-image:url(ditch.jpg);
+    background-position:center;
+}
+
+.background10{
+    background-image:url(fountain.jpg);
+    background-position:center;
+}
+
+.background11{
+    background-image:url(isolation.jpg);
+    background-position:center;
+}
+
+
+
+
+
+/*layout*/
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+      } 
+a{
+    color:darkseagreen;
+    font-family: 'Adobe Caslon Pro';
+    font-size: 14pt;
+    text-transform:uppercase;
+
+}
+
+
+/* == Typography == */
+h2{
+    color:darkorange;
+    font-family: 'Mighty Zeo Caps 2.0'cursive;
+    font-size:80pt;
+    font-style:bold;
+    text-align: center;
+    margin-bottom: auto;
+    
+}
+
+p {color:#000000;
+    font-family: 'Mighty Zeo Caps 2.0'sans-serif cursive;
+    font-style:normal;
+    font-size:14pt;
+    line-height: 18pt;
+    border-radius:25px;
+    display:flex;
+    padding: 10px;
+    background-color:azure;
+    width: 800px;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center
+    
+    
+}
+
+
+footer{
+    font-size:14pt;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+
+
+button {
+    width: 400px;
+    margin-left: auto;
+        margin-right:auto;
+    margin-bottom: 30px;
+    display:block;
+    background-color:yellow;
+    font-size: 30px;
+    font-family:'Helvetica';
+    font-style: oblique;
+    border-radius: 25px;
+    padding: 10px;
+    
+        
+    
+    
+}
+
