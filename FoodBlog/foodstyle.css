@@ -1,0 +1,155 @@
+
+/* === Typography === 
+*/
+
+
+body {
+    font-size: 14pt;
+    font-family: 'Helvetica', Arial, sans-serif;
+    line-height: 18pt;
+    color: #000000;
+    padding-top: 150px;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+}
+
+h1{
+   font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+}
+
+ul{
+    font-size: 14px;
+    line-height: 18px;
+    list-style: none;
+    text-decoration: none;    
+}
+
+footer{
+    font-size: 10pt;
+    font-style: oblique;
+    line-height: 18pt;
+    
+}
+
+
+/* ==Backgrounds=== */
+
+#splash{
+    background-size:cover;
+    background-image: url("heading.jpg");
+}
+header {
+    background-color: #000000;
+    padding: 15px;
+    color: white;
+}
+
+main {
+    background-color:#cdcdcd;
+    padding: 15px;
+}
+
+body {
+    background-color:white;
+    padding: 110px;
+}
+
+footer {
+    background-color:#000000;
+    padding: 15px;
+    color: white;
+}
+
+/* ==Box Model=== */
+
+#splash{
+    height: 400px;
+}
+
+#foodarticles{
+    padding: 30px;
+}
+
+nav a{
+    padding:10px; 
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+
+footer{
+    padding: 30px;
+    text-align: center;
+}
+
+article{
+    margin-bottom: 60px;
+}
+
+/* ==Layout=== */
+
+.floatleft{
+    float:left;
+    margin-right:30px;
+    margin-left:25px;
+}
+
+
+#container{
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* ==Grids=== */
+main{
+    display:grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash {
+    grid-column-start:1;
+    grid-column-end:3; 
+    
+}
+
+aside a {
+    color: black;
+    text-decoration: none;
+}
+aside{
+    margin-left: 35px;
+    
+}
+
+/* ==Fixed Items=== */
+header{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center
+}
+
+#Ad{
+    background-color: red;
+    position:fixed;
+    bottom: 10px;
+    right:10px;
+    width: 400px;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+
+/* ==FlexBox=== */
+#splash{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
