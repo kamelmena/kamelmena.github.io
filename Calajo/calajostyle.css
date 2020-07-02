@@ -1,0 +1,216 @@
+
+/* === Typography === 
+*/
+
+
+body {
+    font-size: 14pt;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+    font-family: 'PT Sans', sans-serif;
+}
+h1{
+   font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+    line-height: 60px;
+}
+
+h2{
+   font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    color: #E41D22;
+}
+
+h3{
+   font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+}
+
+h4{
+   font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+}
+
+footer{
+    font-size: 10pt;
+    font-style: oblique;
+    line-height: 18pt;
+    
+}
+
+.title{
+    text-align: center;
+    width:100%;
+    margin-top:75px;
+}
+
+/* ==Backgrounds=== */
+
+ {}
+  
+#reviews{
+    background-color:lightgray
+}
+#splash{
+    background-size:cover;
+    background-image: url("cake.jpg");
+}
+header {
+    background-color: #000000;
+    padding: 15px;
+    color: white;
+}
+
+button{
+    background-color: red;
+    padding:10px;
+    font-size: 14pt;
+    font-family: 'PT Sans', sans-serif;
+    border: none;
+    Width: 300px;
+    height: 75px;
+     display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: auto;
+    color: white;
+}
+
+button:hover{
+    background-color:lightgray;
+}
+
+body {
+    background-color:mintcream;
+    padding:20px;
+    
+    
+}
+
+footer {
+    background-color:#E41D22;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+   
+}
+
+/* ==Box Model=== */
+
+#splash{
+    height: 500px;
+}
+
+#foodarticles{
+    padding-top:100px;
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+ 
+nav a{
+    padding:10px; 
+    margin-right:10px;
+    margin-left: 10px;
+
+}
+
+article{
+    margin-bottom: 60px;
+    padding-left: 20px;
+}
+
+/* ==Layout=== */
+
+
+#splash{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#foodarticles{
+    display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+
+}
+
+#container{
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img{
+    max-width: 100%;
+    margin-top:none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+
+
+/* ==Fixed Items=== */
+header{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center
+}
+
+#Ad{
+    position:fixed;
+    bottom: 0px;
+    right:200px;
+    width: 150px;
+    height:40px;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000
+    
+}
+
+
+
+/* ==FlexBox=== */
+#splash{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab{
+    font-size: 35pt;}
+
+
+#socialmedia{
+    text-align:center; 
+    color:white;
+    
+}
+
+.floatleft{
+    float:left;
+
+}
+
+footer{
+    clear: both;
+}
+
+.pointer {cursor: pointer;
+}
+
